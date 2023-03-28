@@ -34,9 +34,9 @@
     登入：
     ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_login.png?token=GHSAT0AAAAAACAVBPUJIPK45DNX25DSI236ZBC22FQ)
     修改：
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_update.png?token=GHSAT0AAAAAACAVBPUI5YIFYJLL5Y4RFLPEZBC2LAA)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_update.png?token=GHSAT0AAAAAACAVBPUJHLDKQ7VTMYNXPX4CZBC23PA)
     註冊：
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_signup.png?token=GHSAT0AAAAAACAVBPUIKY3XWO3EX4DOQUTOZBC2LTQ)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_signup.png?token=GHSAT0AAAAAACAVBPUJTRYWAPZECF3ZC75AZBC237Q)
 
 - 商品購買首頁
     商品查詢
