@@ -15,13 +15,12 @@
 ## Entity Relationship Diagram
 - 商品資料表
     ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/goods_table.png?token=GHSAT0AAAAAACAVBPUJMJAJEI3A4M4MMCRYZBC2WFA)
-    
 - 會員資料表
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_table.png?token=GHSAT0AAAAAACAVBPUJDHBIEU7H5W4ESJLCZBC2DAQ)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_table.png?token=GHSAT0AAAAAACAVBPUJRBILQ4732MYO53EEZBC2X2A)
 - 訂單資料表
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/order_table.png?token=GHSAT0AAAAAACAVBPUJ4EJV6ZFRD2AASETCZBC2DZA)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/order_table.png?token=GHSAT0AAAAAACAVBPUIG6VL5CGENU5N253QZBC2YHQ)
 - Diagram
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/Entity%20Relation%20Diagram.png?token=GHSAT0AAAAAACAVBPUIIGWJJS4QWIEUX7FYZBC2FDA)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/Entity%20Relation%20Diagram.png?token=GHSAT0AAAAAACAVBPUJCBMQKWZJGSU6AWTUZBC2YUA)
 
 ## UseCase Diagram
 圖片製作中....
