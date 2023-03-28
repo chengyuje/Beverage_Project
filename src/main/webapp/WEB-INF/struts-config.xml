@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="UpdateGoodsVO" type="com.training.vo.UpdateGoodsVO" />
+		<form-bean name="CreateGoodsVO" type="com.training.vo.CreateGoodsVO" />
+		<form-bean name="GoodsListVO" type="com.training.vo.GoodsListVO" />
+		<form-bean name="MemberVO" type="com.training.vo.MemberVO" />
+		<form-bean name="ShoppingCartVO" type="com.training.vo.ShoppingCartVO" />
+	</form-beans>
+	<action-mappings>
+		<action path="/BackendDispatchAction" type="com.training.action.BackendDispatchAction" parameter="action" name="UpdateGoodsVO">
+			<forward name="queryGoodsView" path="/WEB-INF/BackendWebsite/VM_Backend_GoodsList.jsp" />
+			<forward name="updateGoods" redirect="true" path="/BackendDispatchAction.do?action=goodsSelectedView"  />
+			<forward name="updateGoodsView"  path="/WEB-INF/BackendWebsite/VM_Backend_GoodsReplenishmentAjax.jsp"  />
+			<forward name="querySalesReportView" path="/WEB-INF/BackendWebsite/VM_Backend_GoodsSaleReport.jsp" />
+		</action>
+		
+		<action path="/CreateGoods" type="com.training.action.BackendDispatchAction" parameter="action" name="CreateGoodsVO" >
+			<forward name="addGoods" redirect="true" path="/CreateGoods.do?action=toVMBackendGoodsCreateHtml"  />
+			<forward name="addGoodsView" path="/WEB-INF/BackendWebsite/VM_Backend_GoodsCreate.jsp"  />
+		</action>
+		
+		<action path="/SearchGoodsWithCondition" type="com.training.action.BackendDispatchAction" parameter="action" name="GoodsListVO">
+			<forward name="queryGoodsWithConditionView" path="/WEB-INF/BackendWebsite/VM_Backend_GoodsList.jsp" />
+		</action>
+
+		<action path="/FrontendDispatchAction" type="com.training.action.FrontendDispatchAction" parameter="action">
+			<forward name="frontendView" path="/WEB-INF/FrontendWebsite/VendingMachineCartAjax.jsp" />
+			<forward name="buyGoods" redirect="true" path="/FrontendDispatchAction.do?action=eachPageGoods&amp;pageNo=1"  />
+		</action>
+		
+		<action path="/ShoppingCartDispatchAction" type="com.training.action.ShoppingCartDispatchAction" parameter="action" name="ShoppingCartVO">
+			<forward name="cartList" path="/WEB-INF/FrontendWebsite/ShoppingCartList.jsp" />
+		</action>
+		
+		<action path="/LoginDispatchAction" type="com.training.action.LoginDispatchAction" parameter="action">
+			<forward name="loginView" path="/BeverageMemberLogin.jsp" />
+			<forward name="frontendView" path="/FrontendDispatchAction.do?action=eachPageGoods" />
+		</action>
+		
+		<action path="/MemberDispatchAction" type="com.training.action.MemberDispatchAction" parameter="action" name="MemberVO">
+			<forward name="toMemberList" redirect="true" path="/MemberDispatchAction.do?action=memberListView" />
+			<forward name="memberListView" path="/WEB-INF/LoginWebsite/Beverage_MemberList.jsp" />
+			<forward name="toMemberCreate" redirect="true" path="/MemberDispatchAction.do?action=memberCreateView" />
+			<forward name="memberCreateView" path="/WEB-INF/LoginWebsite/Beverage_MemberCreate.jsp" />
+			<forward name="toMemberModify" redirect="true" path="/MemberDispatchAction.do?action=memberSelectedView" />
+			<forward name="memberModifyView" path="/WEB-INF/LoginWebsite/Beverage_MemberModify.jsp" />
+		</action>
+		
+	</action-mappings>
+</struts-config>

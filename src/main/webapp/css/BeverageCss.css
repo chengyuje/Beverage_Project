@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*BeverageMemberLogin.jsp*/
+.BML_submitButton {
+	height: 50px;
+	width: 520px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: white;
+	font-size: 25px;
+	color: black;
+	border-radius: 5px;
+	border: solid #007FFF;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.BML_submitButton:hover {
+	background-color: #007FFF;
+	color: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.BML_table {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.BML_image::before {
+	background-image: url("../BackGroundImage/LoginBackground.jpg");
+	opacity: 0.7;
+	content: "";
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+/*VendingMachineCartAjax.jsp*/
+.VMC_page {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.VMC_submitButton {
+	height: 25px;
+	text-align: center;
+	font-size: 12px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: solid black;
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+}
+
+.VMC_submitButton:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.VMC_addCartButton {
+	height: 31px;
+	text-align: center;
+	font-size: 13px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: solid #FF1493;
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+}
+
+.VMC_addCartButton:hover {
+	background-color: #FF1493;
+	color: white;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.VMC_image::before {
+	background-image: url("../BackGroundImage/FrontendBackground.jpeg");
+	opacity: 0.8;
+	content: "";
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: -1;
+}
+/*BackendWebsite*/
+.VMB_page {
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.VMB_image::before {
+	background-image: url("../BackGroundImage/Backendbackground.jpg");
+	opacity: 0.4;
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: -1;
+}
