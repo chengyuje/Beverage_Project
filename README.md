@@ -14,7 +14,7 @@
 
 ## Entity Relationship Diagram
 - 商品資料表
-    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/goods_table.png?token=GHSAT0AAAAAACAVBPUIE4YEHADRMPFNO6OIZBC2A7A)
+    ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/goods_table.png?token=GHSAT0AAAAAACAVBPUJMJAJEI3A4M4MMCRYZBC2WFA)
     
 - 會員資料表
     ![N|Solid](https://raw.githubusercontent.com/chengyuje/Beverage_Project_JPG/main/member_table.png?token=GHSAT0AAAAAACAVBPUJDHBIEU7H5W4ESJLCZBC2DAQ)
